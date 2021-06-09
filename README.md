@@ -1,1 +1,3 @@
-# Image-Denoising-using-OPENCV
+# Image Denoising using OPENCV
+
+This repository contains the implementation of an image denoising algorithm created from scratch using OPENCV. The sample image used for the algorithm is also provided. We first introduce some noise in the image by randomly selecting a few pixels and assigning arbitrary values to them. We then split the image into R,G,B channels and then compare every pixel value with its neighbouring pixels (KNN). The difference between the pixel values is compared with a threshold value decided by playing around with the pixel values. The identified noisy pixels are then replaced by mean and median of the neighbouring pixel values and the results are displayed.
